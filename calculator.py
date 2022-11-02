@@ -53,6 +53,7 @@ while True:
     elif operator == "mod":
         result = mod(float(num1),float(num2))
     else:
-        result = "Your done"
+        result = "Your done "
+        return
 
     print(result)
